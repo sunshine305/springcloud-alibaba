@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.unifs.seatastorageservice.dao.StorageDAO">
+    <resultMap id="BaseResultMap" type="com.unifs.seatastorageservice.bean.Storage">
+        <result column="ID" property="id" jdbcType="INTEGER"/>
+        <result column="COMMODITY_CODE" property="commodityCode" jdbcType="VARCHAR"/>
+        <result column="COUNT" property="count" jdbcType="INTEGER"/>
+    </resultMap>
+    <insert id="insert" parameterType="com.unifs.seatastorageservice.bean.Storage">
+        insert into storage_tbl (ID, COMMODITY_CODE,COUNT)
+        values (#{id,jdbcType=INTEGER}, #{commodityCode,jdbcType=VARCHAR}, #{count,jdbcType=INTEGER})
+    </insert>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select ID, TEAM_ID, MOBILE_NUMBER, VOTES, VOTE_TIME
+    from CV_VOTE_RESULTS
+    </select>
+
+    <select id="selectByCode" parameterType="String" resultMap="BaseResultMap">
+        select * from storage_tbl where COMMODITY_CODE=#{_parameter}
+    </select>
+
+    <update id="update" parameterType="com.unifs.seatastorageservice.bean.Storage">
+        update storage_tbl set count=#{count} where COMMODITY_CODE=#{commodityCode}
+    </update>
+</mapper>
