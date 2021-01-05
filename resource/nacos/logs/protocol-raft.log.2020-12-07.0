@@ -1,0 +1,8 @@
+2020-12-07 16:33:32,878 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-07 18:31:47,574 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-07 18:31:47,575 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-07 18:31:47,575 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+

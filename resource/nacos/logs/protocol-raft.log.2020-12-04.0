@@ -1,0 +1,88 @@
+2020-12-04 08:38:12,354 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 08:38:12,356 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 08:38:12,357 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 08:38:12,357 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 08:38:19,544 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:254)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-04 08:38:24,545 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 4999984600ns. [buffered_nanos=5000028400, waiting_for_connection]]
+
+2020-12-04 08:38:29,545 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 4999983200ns. [buffered_nanos=5000508700, waiting_for_connection]]
+
+2020-12-04 08:38:34,235 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 08:38:34,236 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 09:54:34,738 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-12-04 09:54:34,926 INFO ========= The raft protocol is starting... =========
+
+2020-12-04 09:54:35,501 INFO ========= The raft protocol start finished... =========
+
+2020-12-04 09:54:35,513 INFO create raft group : naming_persistent_service
+
+2020-12-04 09:54:36,022 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='null', term=null, raftClusterInfo=[192.168.217.1:7848]}
+
+2020-12-04 09:54:36,100 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='192.168.217.1:7848', term=3, raftClusterInfo=[192.168.217.1:7848]}
+
+2020-12-04 18:34:11,323 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 19:02:23,952 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:254)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-04 19:02:28,954 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:254)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:501)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:276)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-04 19:02:33,954 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: DEADLINE_EXCEEDED: deadline exceeded after 4999974600ns. [buffered_nanos=5000019700, waiting_for_connection]]
+
+2020-12-04 19:02:38,955 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: null]
+
+2020-12-04 19:02:39,907 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 19:02:39,908 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 19:18:35,957 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 19:18:35,957 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+
+2020-12-04 19:27:06,092 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2020-12-04 19:27:06,092 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.217.1:7848]
+

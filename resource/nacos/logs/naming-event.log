@@ -1,0 +1,8 @@
+2021-01-05 10:25:04,313 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.217.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-05 10:25:04,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 
+
+2021-01-05 11:05:03,204 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.217.1:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-01-05 11:05:03,204 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 192.168.217.1:9000_true,
+

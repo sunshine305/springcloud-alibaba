@@ -1,0 +1,14 @@
+2021-01-05 10:25:04,313 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway-server, value: {"instanceList":[]}
+
+2021-01-05 10:27:18,556 WARN namespace : public, [DEFAULT_GROUP@@gateway-server] services are automatically cleaned
+
+2021-01-05 10:27:18,607 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@gateway-server","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1609813504313,"checksum":"a6e047e56b5b6bb4235fb118273eead3","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@gateway-server","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2021-01-05 11:05:03,202 INFO creating empty service public:DEFAULT_GROUP@@gateway-server
+
+2021-01-05 11:05:03,204 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gateway-server","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1609815903202,"checksum":"b35a31a2d102beeedf0357e967fc3666","clusterMap":{},"empty":true}
+
+2021-01-05 11:05:03,204 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.217.1#9000#DEFAULT#DEFAULT_GROUP@@gateway-server","ip":"192.168.217.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1609815903202,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2021-01-05 11:05:03,204 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gateway-server, value: {"instanceList":[{"instanceId":"192.168.217.1#9000#DEFAULT#DEFAULT_GROUP@@gateway-server","ip":"192.168.217.1","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1609815903202,"marked":false,"app":"DEFAULT","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+

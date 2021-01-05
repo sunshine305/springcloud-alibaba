@@ -1,0 +1,14 @@
+2020-12-23 10:23:06,605|192.168.217.1|service.disableGlobalTransaction|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,677|192.168.217.1|transport.threadFactory.bossThreadPrefix|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,690|192.168.217.1|transport.threadFactory.workerThreadPrefix|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,696|192.168.217.1|transport.threadFactory.shareBossWorker|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,701|192.168.217.1|transport.type|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,705|192.168.217.1|transport.threadFactory.workerThreadSize|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,761|192.168.217.1|transport.server|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,778|192.168.217.1|transport.heartbeat|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,784|192.168.217.1|transport.enableClientBatchSendRequest|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,802|192.168.217.1|transport.threadFactory.clientSelectorThreadSize|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,819|192.168.217.1|transport.threadFactory.clientSelectorThreadPrefix|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,943|192.168.217.1|transport.threadFactory.clientWorkerThreadPrefix|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:06,969|192.168.217.1|client.rm.asyncCommitBufferLimit|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1
+2020-12-23 10:23:07,218|192.168.217.1|client.rm.tableMetaCheckEnable|SEATA_GROUP|null|unknown|-1|pull|not-found|-1|127.0.0.1

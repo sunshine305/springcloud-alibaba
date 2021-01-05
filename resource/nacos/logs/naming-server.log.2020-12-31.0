@@ -1,0 +1,6 @@
+2020-12-31 13:51:33,789 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"192.168.2.1#8091#default#SEATA_GROUP@@seata-server","ip":"192.168.2.1","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1609393829670,"marked":false,"app":"unknown","instanceIdGenerator":"simple","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}
+
+2020-12-31 13:51:33,812 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2020-12-31 13:51:35,486 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"192.168.2.1#8091#default#SEATA_GROUP@@seata-server","ip":"192.168.2.1","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1609393895485,"marked":false,"app":"unknown","instanceIdGenerator":"simple","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
